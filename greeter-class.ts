@@ -16,11 +16,11 @@ interface Person {
     lastName: string;
 }
   
-function greeter(person: Person) {
+function greeter3(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
   
-let user = new Student("Sam", "Y", "Klok");
+let user3 = new Student("Sam", "Y", "Klok");
 
-console.log(greeter(user));  
-document.body.textContent = greeter(user);
+console.log(greeter(user3));  
+document.body.textContent = greeter(user3);

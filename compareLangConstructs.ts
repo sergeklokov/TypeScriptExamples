@@ -18,7 +18,7 @@ class UserAccount {
     }
 }
   
-const user: userInterface = new UserAccount("Serge", 1);
+const user1: userInterface = new UserAccount("Serge", 1);
 
 
 class UserAccount2 {

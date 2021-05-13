@@ -8,9 +8,9 @@ var Student = /** @class */ (function () {
     }
     return Student;
 }());
-function greeter(person) {
+function greeter3(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = new Student("Sam", "Y", "Klok");
-console.log(greeter(user));
-document.body.textContent = greeter(user);
+var user3 = new Student("Sam", "Y", "Klok");
+console.log(greeter(user3));
+document.body.textContent = greeter(user3);
